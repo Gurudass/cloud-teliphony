@@ -1,13 +1,28 @@
-<h1 align="center">📞 Cloud Telephony Integration Platform</h1>
-<p align="center"><b>Scalable CTI & Voice Streaming Integration Gateway</b></p>
+# Cloud Telephony Integration Platform
 
-## Overview
-A high-throughput cloud telephony and CTI (Computer Telephony Integration) connector engine built to bridge VoIP/SIP dialers with real-time AI voice agents. Supports WebSocket PCM audio streaming, concurrent call scheduling, and latency-optimized call dispatch.
+**High-Throughput CTI Gateway & Real-Time Audio Streaming Interface**
 
-## Features
-- **Real-Time Audio Streaming:** Low-latency bi-directional WebSocket streaming for speech-to-text (Whisper) and text-to-speech pipelines.
-- **Concurrency & Rate Limiting:** Dynamic batch scheduling respecting GPU capacity constraints (500+ concurrent calls).
-- **Call State Management:** Robust event hooks for ring, answer, DTMF, hold, and disposition logging.
+---
 
-## Tech Stack
-- Python, FastAPI, WebSockets, SIP, Asterisk / FreeSWITCH CTI, Docker, AWS
+### Overview
+A cloud telephony and CTI (Computer Telephony Integration) connector engine engineered to bridge VoIP and SIP dialer systems with real-time speech and AI voice pipelines.
+
+---
+
+### Architecture & Capabilities
+
+* **Bi-directional WebSocket Audio Streaming:** Ultra-low latency streaming for Whisper speech-to-text and streaming TTS synthesis.
+* **Concurrency Management:** Dynamic batch queuing tailored to GPU capacity constraints.
+* **Telephony Event Hooks:** Clean integration with ring, answer, DTMF, hold, and disposition triggers.
+
+---
+
+### Technical Stack
+* Python, FastAPI, WebSockets, SIP, Asterisk / FreeSWITCH CTI, Docker, AWS
+
+---
+
+### Author
+**Guru Das**  
+Senior Full-Stack & Generative AI Engineer  
+[GitHub Profile](https://github.com/Gurudass)
